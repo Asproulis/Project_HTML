@@ -1,8 +1,6 @@
  <?php
  
-	include ('verify.php');
 	
-	<?php
          
             mysql_connect("localhost", "root", " ", "project_2017") or die(mysql_error()); // Connect to database server(localhost) with username and password.
             mysql_select_db("registrations") or die(mysql_error()); // Select registration database.
