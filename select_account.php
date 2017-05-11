@@ -13,9 +13,6 @@
   <title>Thesis Manager</title>
 
 
- 
-  
-  
 </style>
 
     <script src="js/prefixfree.min.js"></script>
@@ -39,18 +36,13 @@
 				<th style="text-align:center">Καθηγητής<br><input type="radio" name="role" value="professor"></th>
 				<th style="text-align:center">Φοιτητής<br><input type="radio" name="role" value="student"></th>
 				</tr>
+				<tr>
+				<th><input type="submit" name="submit" value="Υποβολή" style="position: absolute;left: calc(50% - 130px);z-index: 2;margin-top:20px"></th>
+				</tr>
 				</form>
 			  </table>
 		</div>
-		<!--To script pou kanei submit poio radio button patithike-->
-		<script type='text/javascript'>
-			$(document).ready(function() { 
-			$('input[name=role]').change(function(){
-			$('form').submit();
-			});
-			});
-		</script>
-		<!---------------------------------------------------------->
+		
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
 
 </body>
