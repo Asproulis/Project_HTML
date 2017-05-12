@@ -28,10 +28,10 @@
 			  <li><div>The<span>Ma</span></div><br><div style="font-size:16px">The Online <span><b>Thesis Manager</b></span></div></li>
 			</ul>
 			<ul>
-			  <li style="margin-left:30%;margin-right:60px"><a class="active" href="#home">Αρχική</a></li>
-			  <li style="margin: 0px 60px 0px 0px"><a href="#news">Νέα</a></li>
-			  <li style="margin: 0px 60px 0px 0px"><a href="#contact">Επαφή</a></li>
-			  <li style="margin: 0px 60px 0px 0px"><a href="#about">Σχετικά</a></li>
+			  <li style="margin-left:calc(35% - 90px);;margin-right:50px"><a class="active" href="#home">Αρχική</a></li>
+			  <li style="margin: 0px 50px 0px 0px"><a href="#news">Νέα</a></li>
+			  <li style="margin: 0px 50px 0px 0px"><a href="#contact">Επαφή</a></li>
+			  <li style="margin: 0px 50px 0px 0px"><a href="#about">Σχετικά</a></li>
 			</ul>
 		</div>
 		

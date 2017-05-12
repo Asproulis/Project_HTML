@@ -302,11 +302,13 @@ th{
 ul {
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
+    padding: 5px 5px 5px 5px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+	background: rgba(239,240,241,0.05);
+	
 }
 
 li {
@@ -317,12 +319,13 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 22px 26px;
+	font-size: 16px;
+    padding: 25px 50px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #C3B6A1;
+	background: rgba(242,242,242,0.2);
 }
 
 .active {
