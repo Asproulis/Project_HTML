@@ -19,7 +19,7 @@ body{
 	bottom: -40px;
 	width: auto;
 	height: auto;
-	background-image: url(back2.jpg);
+	background-image: url(back2.png);
 	background-size: cover;
 	-webkit-filter: blur(5px);
 	z-index: 0;
@@ -272,6 +272,49 @@ input[type=text]{
 	float: center;
 }
 
+ .register_t{
+	position: absolute;
+	top: calc(5% + 70px);
+	left: calc(50% - 400px);
+	height: auto;
+	width: auto;
+	margin-top: 20px;
+	padding: 10px;
+	z-index: 2;
+	font-size:16px;
+}
+
+.register_t textarea{
+	width: auto;
+	height: auto;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+	float: right;
+}
+
+.register_t input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+	float: center;
+}
+
 .register input[type=submit]:hover{
 	opacity: 0.8;
 }
@@ -296,17 +339,24 @@ input[type=text]{
 
 th{
 	text-align: right;
-	width: 50%;
+	width: 100%;
+}
+
+.register_t th{
+	text-align: right;
+	width: auto;
 }
 
 ul {
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
+    padding: 5px 5px 5px 5px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+	background: rgba(239,240,241,0.05);
+	
 }
 
 li {
@@ -317,12 +367,13 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 22px 26px;
+	font-size: 16px;
+    padding: 25px 50px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #C3B6A1;
+	background: rgba(242,242,242,0.2);
 }
 
 .active {

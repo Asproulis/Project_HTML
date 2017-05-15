@@ -215,7 +215,7 @@
 		</div>
 		<br>
 		<div class="register">
-			<div  style="font-size:16px;text-align:center">
+			<div  style="font-size:16px;text-align:center;margin-top:30px">
 			<label>Εάν είσαι νέος χρήστης κάνε εγγραφή συμπληρώνοντας τα στοιχεία σου στη φόρμα εγγραφής που ακολουθεί.<label><br>
 			</div>
 				<h2>Φόρμα Εγγραφής</h2>
